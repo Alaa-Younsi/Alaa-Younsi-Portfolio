@@ -146,7 +146,7 @@ html, body {
 
 @media screen and (max-width: 600px) {
     #Title {
-        font-size: 37px;
+        font-size: 35px;
     }
 }
 
@@ -166,7 +166,7 @@ html, body {
 
 @media screen and (max-width: 600px) {
     #Buttons {
-        margin-top: 20%;
+        margin-top: 30%;
     }
 }
 
@@ -215,7 +215,7 @@ html, body {
 @media screen and (max-width: 600px) {
     .Home-p {
         color: white;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: bold;
         margin-top: 4%;
     }
