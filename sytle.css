@@ -1,3 +1,4 @@
+
 * {
     display: flexbox;
     box-sizing: border-box;  
@@ -97,16 +98,16 @@ html, body {
 
 #Header {
     position: fixed;
-    left: 5%;
-    top: 10%;
+    left: 4.5%;
+    top: 8%;
     z-index: 2;
 }
 
 @media screen and (max-width: 600px) {
     #Header {
         position: fixed;
-        left: 10%;
-        top: 5%;
+        left: 8%;
+        top: 4%;
     }
 }
 
@@ -116,8 +117,6 @@ html, body {
 
 #Title {
     font-size: 60px;
-    font-family:'Times New Roman', Times, serif;
-    font-style: italic;
 }
 
 @media screen and (max-width: 600px) {
@@ -127,7 +126,8 @@ html, body {
 }
 
 #DD {
-    font-size: 16px;
+    font-size: 13px;
+    font-family: sans-serif;
 }
 
 @media screen and (max-width: 600px) {
@@ -137,7 +137,7 @@ html, body {
 }
 
 #Buttons {
-    margin-top: 30%;
+    margin-top: 21%;
 }
 
 @media screen and (max-width: 600px) {
@@ -149,8 +149,9 @@ html, body {
 .buttons {
     color: white;
     text-decoration: none;
+    font-family: sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 600px) {
@@ -164,12 +165,12 @@ html, body {
 }
 
 .buttons-p {
-    margin-top: 5%;
+    margin-top: 6%;
 }
 
 #Home {
     position: absolute;
-    top: 55%;
+    bottom: 5%;
     right: 2%;
 }
 
@@ -183,9 +184,10 @@ html, body {
 
 .Home-p {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
-    margin-top: 2%;
+    margin-top: 5%;
+    font-family: sans-serif;
 }
 
 @media screen and (max-width: 600px) {
@@ -195,4 +197,8 @@ html, body {
         font-weight: bold;
         margin-top: 4%;
     }
+}
+
+._dot2, ._dot3, ._dot4 {
+    display: none;
 }
