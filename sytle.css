@@ -1,3 +1,4 @@
+
 * {
     display: flexbox;
     box-sizing: border-box;  
@@ -145,28 +146,6 @@ html, body {
     }
 }
 
-.buttons {
-    color: white;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-}
-
-@media screen and (max-width: 600px) {
-    .buttons {
-        font-size: 14px;
-    }
-}
-
-.buttons:hover {
-    color: #383838;
-}
-
-.buttons-p {
-    margin-top: 5%;
-}
-
 #Home {
     position: absolute;
     bottom: 5%;
@@ -198,15 +177,156 @@ html, body {
     }
 }
 
-._dot2, ._dot3, ._dot4 {
-    display: none;
-}
-
-._dot {
+.mainbutton {
+    background-color: transparent;
     color: white;
-    font-size: 18px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-top: 4%;
 }
 
-.buttons-home {
+@media screen and (max-width: 600px) {
+    .mainbutton {
+        font-size: 12px;
+        margin-top: 7%;
+    }
+}
+
+.mainbutton:hover {
+    opacity: 0.5;
+}
+
+#Projects {
+    position: absolute;
+    top: 21.5%;
+    right: 2.5%;
+    text-align: right;
+    width: 30%;
     display: none;
+}
+
+@media screen and (max-width: 600px) {
+    #Projects {
+        position: absolute;
+        top: 21.5%;
+        right: 6%;
+        text-align: right;
+        width: 55%;
+    }
+}
+
+#Projects-heading {
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    #Projects-heading {
+        font-size: 12px;
+    }
+}
+
+.project-title {
+    color: white;
+    font-size: 55px;
+}
+
+@media screen and (max-width: 600px) {
+    .project-title {
+        font-size: 35px;
+    }
+}
+
+.project-info {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    .project-info {
+        font-size: 12px;
+        margin-right: 0;
+    }
+}
+
+#Projects-list {
+    width: 100%;
+    margin-top: 7%;
+}
+
+@media screen and (max-width: 600px) {
+    #Projects-list {
+        width: 100%;
+        margin-top: 15%;
+    }
+}
+
+.projects-sections {
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 600px) {
+    .projects-sections {
+        margin-top: 6%;
+    }
+}
+
+.projects-sections:hover {
+    opacity: 0.5;
+}
+
+.projects-sections-a {
+    text-decoration: none;
+}
+
+#Front-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+#FP-title {
+    text-align: center;
+    margin-top: 23%;
+}
+
+@media screen and (max-width: 600px) {
+    #FP-title {
+        margin-top: 50%;
+    }
+}
+
+#Alaayounsi {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    #Alaayounsi {
+        font-size: 20px;
+    }
+}
+
+#Portfolio {
+    color: white;
+    font-size: 30px;
+    margin-left: 1%;
+}
+
+@media screen and (max-width: 600px) {
+    #Portfolio {
+        font-size: 20px;
+        margin-left: 3%;
+    }
 }
