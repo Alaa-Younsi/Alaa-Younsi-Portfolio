@@ -27,6 +27,12 @@
 
     <body>
 
+        <div id="Front-page">
+
+           <p id="FP-title"><span id="Alaayounsi">Alaa Younsi</span><span id="Portfolio">Portfolio</span></p> 
+            
+        </div>
+
         <div id="Page">
             <canvas id="C"></canvas>
 
@@ -42,14 +48,14 @@
 
                 <div id="Buttons">
 
-                    <p class="buttons-p"><a href="#" class="buttons buttons-home">• Home</a></p>
+                    <button id="Home-button" onclick="HomeButton()" class="mainbutton">&#x25cf;</button>
 
-                    <p class="buttons-p"><a href="#" class="buttons buttons-projects">• Projects</a></p>
+                    <button id="Projects-button" onclick="ProjectsButton()" class="mainbutton" >Projects</button>
 
-                    <p class="buttons-p"><a href="#" class="buttons buttons-info">• Info</a></p>
+                    <button id="Info-button" onclick="InfoButton()" class="mainbutton" >Info</button>
 
-                    <p class="buttons-p"><a href="#" class="buttons buttons-contact">• Contact</a></p>
-
+                    <button id="Contact-button" onclick="ContactButton()" class="mainbutton" >Contact</button>
+                        
                 </div>
 
             </div>
@@ -72,10 +78,39 @@
                 <p class="Home-p">on future projects.</p>
 
             </div>
+
+           <div id="Projects">
+
+                <div id="Projects-heading">■ Development & Design Projects</div>  
+
+                <div id="Projects-list">
+
+                    <a href="https://alaa-younsi.github.io/Marlowe-7.0/" class="projects-sections-a"><div id="Project1" 
+                        class="projects-sections">
+                        <span class="project-info">2023 / Personal / Portfolio</span>
+                        <span class="project-title">Marlowe</span>
+                    </div></a>
+
+                    <a href="https://alaa-younsi.github.io/R-tacos/" class="projects-sections-a"><div id="Project2" 
+                        class="projects-sections">
+                        <span class="project-info">2023 / Commission / Special</span>
+                        <span class="project-title">R'tacos</span>
+                    </div></a>
+
+                    <a href="https://alaa-younsi.github.io/Ecole-Nour-El-Karim/" class="projects-sections-a"><div id="Project3" 
+                        class="projects-sections">
+                        <span class="project-info">2023 / Commission / Special</span>
+                        <span class="project-title">ENK</span>    
+                    </div></a>
+
+                </div>
+
+           </div> 
             
         </div>
 
         <script src="background.js"></script>
+        <script src="main.js"></script>
 
     </body>
 
