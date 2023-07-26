@@ -99,3 +99,34 @@ $(document).ready(function(){
         $("#Contact").fadeOut(250);
       });
   });
+
+
+
+  $(document).ready(function(){
+
+    $("#Info-button").click(function(){
+        $("#Info").fadeIn(250);
+      });
+  });
+
+  $(document).ready(function(){
+
+    $("#Home-button").click(function(){
+        $("#Info").fadeOut(250);
+      });
+  });
+
+  $(document).ready(function(){
+
+    $("#Projects-button").click(function(){
+        $("#Info").fadeOut(250);
+      });
+  });
+
+  $(document).ready(function(){
+
+    $("#Contact-button").click(function(){
+        $("#Info").fadeOut(250);
+      });
+  });
+
