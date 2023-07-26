@@ -330,3 +330,155 @@ html, body {
         margin-left: 3%;
     }
 }
+
+#Info {
+    Display: none;
+}
+
+.infos {
+    color: white;
+}
+
+#Info1 {
+    position: absolute;
+    top: 5%;
+    right: 2.5%;
+}
+
+@media screen and (max-width: 600px) {
+    #Info1 {
+        position: absolute;
+        top: 21.5%;
+        right: 6%;
+    }
+}
+
+.info1text {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .info1text {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+
+.info1text:hover {
+    opacity: 0.5;
+}
+
+#Info2 {
+    position: absolute;
+    top: 20%;
+    right: 25%;
+    width: 40%;
+}
+
+@media screen and (max-width: 600px) {
+    #Info2 {
+        position: absolute;
+        top: 40%;
+        left: 8%;
+        width: 90%;
+    }
+}
+
+#Skills-section {
+    width: 100%;
+}
+
+#Skills-title {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    #Skills-title {
+        font-size: 12px;
+    }
+}
+
+#Skills-title2 {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 600px) {
+    #Skills-title2 {
+        font-size: 12px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: 5%;
+    }
+}
+
+.Info2-text1 {
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 600px) {
+    .Info2-text1 {
+        margin-top: 2%;
+        font-size: 10px;
+    }
+}
+
+.Info2-text2 {
+    margin-top: 2%;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .Info2-text2 {
+        margin-top: 2%;
+        font-size: 10px;
+    }
+}
+
+#Info3 {
+    position: absolute;
+    top: 82%;
+    right: 2.5%;
+}
+
+@media screen and (max-width: 600px) {
+    #Info3 {
+        position: absolute;
+        top: 80%;
+        right: 6%;
+    }
+}
+
+.sm {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2%;
+}
+
+@media screen and (max-width: 600px) {
+    .sm {
+        font-size: 12px;
+        margin: 2%;
+    }
+}
+
+.sm:hover {
+    opacity: 0.5;
+}
