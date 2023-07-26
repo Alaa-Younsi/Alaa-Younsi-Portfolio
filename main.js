@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
     $("#Alaayounsi").fadeOut(2000);
 });
@@ -127,6 +126,36 @@ $(document).ready(function(){
 
     $("#Contact-button").click(function(){
         $("#Info").fadeOut(250);
+      });
+  });
+
+
+
+  $(document).ready(function(){
+
+    $("#Contact-button").click(function(){
+        $("#Contact").fadeIn(250);
+      });
+  });
+
+  $(document).ready(function(){
+
+    $("#Home-button").click(function(){
+        $("#Contact").fadeOut(250);
+      });
+  });
+
+  $(document).ready(function(){
+
+    $("#Projects-button").click(function(){
+        $("#Contact").fadeOut(250);
+      });
+  });
+
+  $(document).ready(function(){
+
+    $("#Info-button").click(function(){
+        $("#Contact").fadeOut(250);
       });
   });
 
