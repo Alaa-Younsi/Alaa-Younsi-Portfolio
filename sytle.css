@@ -1,3 +1,4 @@
+
 * {
     display: flexbox;
     box-sizing: border-box;  
@@ -23,10 +24,31 @@ html, body {
 @media screen and (max-width: 600px) {
     #Page {
         width: 100%;
-        height: calc(viewport-lenght);
+        height: 100vh;
         position: fixed;
-        top: 0;
+        top: 5vh;
         left: 0;
+    }
+}
+
+#Mini-page {
+    width: 100%;
+    height: 5vh;
+    position: absolute;
+    left: 0;
+    top: 95%;
+    background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+    #Mini-page {
+        width: 100%;
+        height: 5vh;
+        position: absolute;
+        left: 0;
+        top: 97.2vh;
+        background-color: black;
+        z-index: 2;
     }
 }
 
@@ -114,10 +136,10 @@ html, body {
 @media screen and (max-width: 600px) {
     #C {
         position: absolute;
-        top: 3%;
-        left: 4%;
-        width: 92%;
-        height: 94%;
+        top: 0;
+        left: 5%;
+        width: 90%;
+        height: 100%;
         z-index: -1;
         overflow: hidden;
     }
