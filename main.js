@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     $("#Alaayounsi").fadeOut(2000);
 });
@@ -94,8 +95,8 @@ $(document).ready(function(){
 
   $(document).ready(function(){
 
-    $("#Home-button").click(function(){
-        $("#Contact").fadeOut(250);
+    $("#Contact-button").click(function(){
+        $("#Projects").fadeOut(250);
       });
   });
 
@@ -158,4 +159,3 @@ $(document).ready(function(){
         $("#Contact").fadeOut(250);
       });
   });
-
