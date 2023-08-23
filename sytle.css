@@ -114,10 +114,10 @@ html, body {
 @media screen and (max-width: 600px) {
     #C {
         position: absolute;
-        top: 3vh;
-        left: 5%;
-        width: 90%;
-        height: 94%;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
         z-index: -1;
         overflow: hidden;
     }
@@ -240,7 +240,7 @@ html, body {
         top: 21.5%;
         right: 6%;
         text-align: right;
-        width: 50%;
+        width: 45%;
     }
 }
 
