@@ -1,3 +1,4 @@
+
 * {
     display: flexbox;
     box-sizing: border-box;  
@@ -229,7 +230,7 @@ html, body {
     top: 21.5%;
     right: 2.5%;
     text-align: right;
-    width: 30%;
+    width: 40%;
     display: none;
 }
 
@@ -239,7 +240,7 @@ html, body {
         top: 21.5%;
         right: 6%;
         text-align: right;
-        width: 55%;
+        width: 50%;
     }
 }
 
